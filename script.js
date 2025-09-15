@@ -60,7 +60,7 @@ console.log(2 + 3);
 //         - "Young" if age is between 13 and 35
 //         - "Aged" if age > 35
 // write code here 
-let age = prompt("Enter your age:"); 
+let age = (prompt("Enter your age:")); 
 age = Number(age); 
 if (age < 13) {
   console.log("Child");
